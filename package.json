@@ -18,7 +18,7 @@
   },
   "build": {
     "appId": "org.jitsi.jitsi-meet",
-    "productName": "Jitsi Meet",
+    "productName": "Mahlo Meet",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "**/*",
