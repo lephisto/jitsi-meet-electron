@@ -1,9 +1,9 @@
 {
   "name": "jitsi-meet-electron",
   "version": "2.6.0",
-  "description": "Electron application for Jitsi Meet",
+  "description": "Electron application for Mahlo Meet",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "Mahlo Meet",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
@@ -27,7 +27,7 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "mahlo-meet.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true,
       "hardenedRuntime": true,
@@ -39,10 +39,10 @@
       }
     },
     "linux": {
-      "artifactName": "jitsi-meet-${arch}.${ext}",
+      "artifactName": "mahlo-meet-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "Jitsi Meet Desktop App",
-      "executableName": "jitsi-meet",
+      "description": "Mahlo Meet Desktop App",
+      "executableName": "mahlo-meet",
       "target": [
         {
           "arch": "x64",
@@ -51,7 +51,7 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "mahlo-meet.${ext}",
       "target": [
         {
           "arch": [
