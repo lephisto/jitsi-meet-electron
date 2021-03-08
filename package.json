@@ -80,7 +80,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet-electron"
+    "url": "https://github.com/lephisto/jitsi-meet-electron/tree/mahlo"
   },
   "keywords": [
     "jingle",
